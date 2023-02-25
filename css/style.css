@@ -1,0 +1,135 @@
+/* GOOGLE FONTS */
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+    margin: 20px;
+    
+}
+
+header {
+    background-color: plum;
+    border: 2px solid purple;
+    margin-bottom: 10px;
+}
+ 
+
+.imagen {
+    display:block;
+    margin:auto;
+    
+}
+
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px;
+
+}
+
+.contenedorImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contenedorImg img {
+    width: 300px;
+}
+
+.contenedorImg figcaption {
+    color: purple;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(199, 147, 199);
+    color: purple;
+    border-top: 2px solid purple;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.piePagina {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.piePagina li{
+    margin: 30px;
+}
+
+.contenedorImagen {
+    display: flex;
+    align-items: center;
+}
+
+#mitos {
+    text-align: center;
+    border: 1px solid rgb(224, 151, 175);
+    background-color: rgb(224, 151, 175);
+   
+}
+
+/* CONTENEDOR ANTICONCEPCIÓN HORMONAL/NO HORMONAL */
+.Femenina {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+}
+
+h3 a {
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+/* FORMULARIO CONTACTO */
+.contenedorContacto {
+    text-align: center;
+    background-color: rgb(224, 151, 175);
+    border: 3px solid rgb(224, 151, 175);
+    margin: 10px 250px;
+}
