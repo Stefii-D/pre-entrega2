@@ -5,15 +5,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: antiquewhite;
-    margin: 20px;
-    
 }
 
 header {
-    background-color: plum;
-    border: 2px solid purple;
-    margin-bottom: 10px;
+    background-color: #000051;
+    border: 2px solid #000051;
+    margin-bottom: 1rem;
 }
  
 
@@ -26,10 +23,14 @@ header {
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    color: purple;
+    color: rgb(75, 151, 223);
+    border: 2px solid rgb(75, 151, 223);
     text-align: center;
     text-decoration: underline;
-    padding-bottom: 30px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin: 1rem 26rem;
+
     
 }
 
@@ -51,7 +52,7 @@ ul li {
 
 ul li a{
     text-decoration: none;
-    color: purple;
+    color: rgb(124, 183, 238);
     font-weight: bold;
     text-transform: uppercase;
     margin: 30px;
