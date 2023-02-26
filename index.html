@@ -17,157 +17,117 @@
   <!-- HEADER -->
   <header>
 
+    <h1> Anticoncepción Consciente </h1>
 
-    <nav>
-      <ul>
-        <li> <img src="img/logo.png" alt="Logo" width="18%"> </li>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="html/historia.html">Historia</a></li>
-        <li><a href="html/masculinas.html">Masculinas</a></li>
-        <li><a href="html/femeninas.html">Femeninas</a></li>
-        <li><a href="html/contactanos.html">Contactanos</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg">
 
+      <div class="container-fluid">
+        <img src="img/logo.png" alt="Logo" width="60px">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="html/historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a href="html/masculinas.html">Masculinas</a>
+            </li>
+            <li class="nav-item">
+              <a href="html/femeninas.html">Femeninas</a>
+            </li>
+            <li class="nav-item">
+              <a href="html/contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn botonBusqueda" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
 
   <!-- MAIN -->
   <main>
-
-    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-    <meta name="theme-color" content="#712cf9">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    <h1> Anticoncepción Consciente</h1>
     <!-- CAROUSEL -->
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
+    <div id="carouselExample" class="carousel slide" mt-2>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/historia.avif" class="d-block w-100 .img-fluid" alt="Primera imagen de anticonceptivos">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Historia de anticonceptivos</h5>
-            <p>Descubrimos la historia y desmentimos los mitos más divulgados</p>
-          </div>
+          <img src="img/estadisticas.jpg" class="d-block w-100 .img-fluid" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="img/Foto1.jpg" class="d-block w-100 .img-fluid" alt="Segunda imagen de anticonceptivos">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Anticoncepción Femenina</h5>
-            <p> ¿A todas nos sirve lo mismo? </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/foto2.webp" class="d-block w-100 .img-fluid" alt="Tercera imagen">
-          <div class="carousel-caption d-none d-md-block">
-            <h5> Anticoncepción Masculina </h5>
-            <p> ¿Qué esperar para el futuro de la anticoncepción masculina? </p>
-          </div>
+          <img src="img/estadisticas2.jpg" class="d-block w-100 .img-fluid" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
-    <h2> Sobre nosotros </h2>
-    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, sapiente? Ad placeat aut soluta? Dolorem ea facere
-      minus alias voluptates dolores laboriosam minima delectus? Amet aperiam sapiente dolor accusamus, aut possimus
-      dicta magnam suscipit laudantium exercitationem, error sequi dolores optio. Saepe, corporis aperiam optio amet
-      alias doloribus nulla a quas praesentium delectus, veritatis eius harum cupiditate temporibus? Possimus vero quae
-      veniam repudiandae minima iure eos eaque ea, est quibusdam officiis officia sapiente mollitia temporibus! Ratione
-      officiis, dolore sint libero voluptate, porro repellat hic nostrum praesentium nisi maiores, iure dignissimos
-      eligendi atque saepe ut qui eum facere? Fugiat quae aliquam nam obcaecati impedit rerum id, atque dolore cum
-      molestiae neque necessitatibus sed. Numquam, recusandae totam alias nesciunt debitis ut veritatis. Corporis eaque
-      ipsum maxime pariatur odit quisquam aperiam sint quos vel? Tempora aliquam ad velit hic, neque molestias, id iusto
-      voluptatem dolores dignissimos laborum, atque cupiditate? Modi possimus eveniet exercitationem vitae officiis
-      praesentium natus animi, quos temporibus nihil doloremque sequi. Ullam dolores, eos laborum error doloremque
-      corporis quasi! Sed, sunt repellendus. Vitae porro est modi sed delectus odio ratione ducimus nam quibusdam,
-      similique veritatis odit voluptas fugiat quod reprehenderit ipsa temporibus laudantium. Magnam doloremque
-      exercitationem alias ratione nostrum ducimus eligendi nemo.</p>
 
 
-    <figure class="contenedorImg">
-      <img src="img/historia.avif" alt="Historia de anticonceptivos">
-      <figcaption> Un poco de historia</figcaption>
-      <img src="img/anticonmasc.jpg" alt="anticoncepción masculina">
-      <figcaption> Anticoncepción Masculina</figcaption>
-      <img src="img/anticonfem.jpg" alt="anticoncepción femenina">
-      <figcaption> Anticoncepción Femenina</figcaption>
-    </figure>
+    <div class="sobreNosotros">
+      <h2> Sobre nosotros </h2>
+      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, sapiente? Ad placeat aut soluta? Dolorem ea
+        facere
+        minus alias voluptates dolores laboriosam minima delectus? Amet aperiam sapiente dolor accusamus, aut possimus
+        dicta magnam suscipit laudantium exercitationem, error sequi dolores optio. Saepe, corporis aperiam optio amet
+        alias doloribus nulla a quas praesentium delectus, veritatis eius harum cupiditate temporibus? Possimus vero
+        quae
+        veniam repudiandae minima iure eos eaque ea, est quibusdam officiis officia sapiente mollitia temporibus!
+        Ratione
+        officiis, dolore sint libero voluptate, porro repellat hic nostrum praesentium nisi maiores, iure dignissimos
+        eligendi atque saepe ut qui eum facere? Fugiat quae aliquam nam obcaecati impedit rerum id, atque dolore cum
+        molestiae neque necessitatibus sed. Numquam, recusandae totam alias nesciunt debitis ut veritatis. Corporis
+        eaque
+        ipsum maxime pariatur odit quisquam aperiam sint quos vel? Tempora aliquam ad velit hic, neque molestias, id
+        iusto.
+      </p>
+    </div>
+
+    <!-- CARDS CON FOTO -->
+
+    <div class="card-group container-fluid">
+      <div class="card" style="width: 18rem">
+        <img src="img/historia.avif" class="card-img-top" alt="Historia">
+        <div class="card-body">
+          <h5 class="card-title">Historia y mitos</h5>
+          <p class="card-text"> ¿Qué de todo lo que escuchamos y leímos es verdad sobre la anticoncepción?</p>
+          <a href="html/historia.html" class="btn btn-primary botonBusqueda"> Quiero saber </a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/anticonmasc.jpg" class="card-img-top" alt="Anticoncepción Masculina">
+        <div class="card-body">
+          <h5 class="card-title">Anticoncepción Masculina</h5>
+          <p class="card-text"> ¿Es solamente anticonceptivo? ¿Existe una variante hormonal?</p>
+          <a href="html/masculinas.html" class="btn btn-primary botonBusqueda"> Quiero saber </a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/anticonfem.jpg" class="card-img-top" alt="Anticoncepción Femenina">
+        <div class="card-body">
+          <h5 class="card-title">Anticoncepción Femenina</h5>
+          <p class="card-text"> ¿Conocemos toda la oferta de anticonceptivos? </p>
+          <a href="html/femeninas.html" class="btn btn-primary botonBusqueda"> Quiero saber </a>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -175,15 +135,15 @@
 
   <!-- FOOTER -->
 
-  <footer class: piePagina>
-    <h3> Todos los derechos reservados</h3>
-
-    <ul>
-      <li> <a target="_blank" href="https://es-la.facebook.com/">Facebook</a></li>
-      <li> <a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
-      <li> <a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li><a target="_blank" href="https://es-la.facebook.com/" class="nav-link px-2 textoFooter">Facebook</a></li>
+      <li><a target="_blank" href="https://www.youtube.com/" class="nav-link px-2 textoFooter">Youtube</a></li>
+      <li><a target="_blank" href="https://www.instagram.com/" class="nav-link px-2 textoFooter">Instagram</a></li>
     </ul>
+    <p class="text-center text-muted">&copy; Todos los derechos reservados</p>
   </footer>
+
 
   <!-- BOOTSRAP -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

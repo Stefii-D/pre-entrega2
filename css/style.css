@@ -5,39 +5,42 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+   
 }
 
+/* HEADER */
 header {
-    background-color: #000051;
-    border: 2px solid #000051;
-    margin-bottom: 1rem;
+    background-color: #333;
 }
- 
-
-.imagen {
-    display:block;
-    margin:auto;
-    
+header nav {
+    background-color:#792359;
+    padding: 1rem;
 }
 
+.botonBusqueda {
+    background-color: #d72483;
+    color:aliceblue;
+    border: aliceblue;
+}
+
+.botonBusqueda:hover {
+    background-color: aliceblue;
+    color: #d72483;
+    border: #d72483;
+}
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    color: rgb(75, 151, 223);
-    border: 2px solid rgb(75, 151, 223);
+    color: #c267a1;
     text-align: center;
-    text-decoration: underline;
     padding-top: 1rem;
     padding-right: 1rem;
-    margin: 1rem 26rem;
-
-    
+    font-size:26px;  
 }
 
-h2 {
-    font-family: 'Bebas Neue', cursive;
+h1:hover {
+    text-decoration: underline;
 }
-
 
 ul {
     display: flex;
@@ -52,79 +55,136 @@ ul li {
 
 ul li a{
     text-decoration: none;
-    color: rgb(124, 183, 238);
+    color:#FD3E81;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 30px;
-
+    margin: 0px 30px ;
 }
 
-.contenedorImg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ul li a:hover {
+    text-decoration: underline;
+    color: #c267a1;
+}
+
+ /*MAIN  */
+
+.imagen {
+    display:block;
+    margin:auto;
     
 }
 
-.contenedorImg img {
-    width: 300px;
+/* CAROUSEL */
+
+.textoCarousel {
+    color: rgb(89, 21, 110);
+    font-weight: bold;
+    font-style:oblique ;
 }
 
-.contenedorImg figcaption {
-    color: purple;
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #dda3c2;
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.sobreNosotros {
+    border: #d72483;
+    background-color: #d72483;
+    color: beige;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+.textoFooter {
+    color: #FD3E81;
     font-weight: bold;
+}
+
+.textoFooter:hover {
+    color:#dda3c2;
 }
 
 footer {
-    background-color: rgb(199, 147, 199);
-    color: purple;
-    border-top: 2px solid purple;
-    text-align: center;
-    margin-top: 10px;
-    
+    background-color: #792359;
 }
 
-.piePagina {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.piePagina li{
-    margin: 30px;
-}
 
 .contenedorImagen {
     display: flex;
     align-items: center;
 }
 
+/* VIDEO MITOS */
+
 #mitos {
     text-align: center;
-    border: 1px solid rgb(224, 151, 175);
-    background-color: rgb(224, 151, 175);
+    border: 1px solid #d72483;
+    background-color:#d72483;
+    margin-top: 10px;
+    padding-top: 10px;
    
 }
 
-/* CONTENEDOR ANTICONCEPCIÓN HORMONAL/NO HORMONAL */
-.Femenina {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    margin: 20px;
-    color: white;
-    font-weight: bold;
-    border: 1px solid palevioletred;
-    background-color: palevioletred;
+/* DIV CARDS HISTORIA Y MITOS */
+
+
+
+ .historiaCards:hover {
+    background-color: #333;
+    color: beige;
+} 
+
+.mitoCards:hover {
+    background-color: #333;
+    color: beige;
 }
 
-h3 a {
-    color: white;
-    font-weight: bold;
 
-    
+/* CONTENEDOR ANTICONCEPCIÓN HORMONAL/NO HORMONAL */
+
+.rowFem{
+    color: #FD3E81;
+    font-weight: bolder;
+    margin: 1rem;   
+}
+
+/* ANTICONCEPCIÓN FEMENINA */
+
+
+
+/* ANTICONCEPCIÓN MASCULINA */
+
+.generalidadesMasc {
+    background-color: rgb(9, 20, 70);
+    color: white;
+    margin: 15px 1px;
+    padding: 20px;
+}
+
+.generalidadesMasc h2 {
+    color:rgb(75, 151, 223) ;
+}
+.masculina:hover {
+    background-color: #333;
+    color:rgb(75, 151, 223) ;
+}
+
+.masculinaDos:hover {
+    background-color: #333;
+    color: #c267a1;
+}
+
+.masculinaTres:hover {
+    background-color: #333;
+    color:#dda3c2;
 }
 
 /* FORMULARIO CONTACTO */
@@ -134,3 +194,13 @@ h3 a {
     border: 3px solid rgb(224, 151, 175);
     margin: 10px 250px;
 }
+
+.contenedorContacto h2 {
+    color: #792359;
+    margin-top: 20px;
+}
+
+.contenedorContacto input:hover {
+    background-color: #dda3c2;
+}
+

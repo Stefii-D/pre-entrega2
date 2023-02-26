@@ -1,45 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Femeninas</title>
+    <!-- CSS BOOTSRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
         <h1> Anticoncepción Femenina</h1>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="masculinas.html">Masculinas</a></li>
-                <li><a href="femeninas.html">Femeninas</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid">
+                <img src="../img/logo.png" alt="Logo" width="60px">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="masculinas.html">Masculinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="femeninas.html">Femeninas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn botonBusqueda" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
+    <!-- MAIN -->
     <main>
-        <img class="imagen" src="../img/anticonfem.jpg" alt="Anticoncepción femenina" width="500">
-        <div class="Femenina"> 
-            <h3> <a href="hormonal.html">Anticoncepción Hormonal</a></h3> 
-            <h3> <a href="no-hormonal.html">Anticoncepción No Hormonal</a></h3>
+        <img class="imagen img-fluid" src="../img/anticonfem.jpg" alt="Anticoncepción femenina" width="500">
+
+        <div class="row rowFem">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hormonal</h5>
+                        <p class="card-text">Todo sobre la anticoncepción hormonal.</p>
+                        <a href="../html/hormonal.html" class="btn btn-primary botonBusqueda">Quiero saber</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">No Hormonal</h5>
+                        <p class="card-text">Todo sobre la anticoncepción no hormonal.</p>
+                        <a href="../html/no-hormonal.html" class="btn btn-primary botonBusqueda">Quiero saber</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
+
         <h2> ¿Cuál es la diferencia?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus dignissimos vero, in magni blanditiis obcaecati tempora iste officia explicabo aperiam neque eos accusantium ex voluptate dolorem. Quis, ducimus! Accusamus saepe delectus porro corrupti architecto eum quam sint perferendis veniam velit est tempora sequi ea nihil voluptas error tempore harum laborum, natus explicabo alias beatae minus rem. Assumenda quaerat nobis error excepturi molestias et rerum minima doloribus sint, eum aliquam ut omnis asperiores iste non. Tempora commodi quia doloribus repudiandae placeat esse suscipit ipsa sunt nisi, aut perferendis odit unde tempore, ducimus iste atque a et voluptate nulla hic eum alias. Reiciendis doloribus numquam illum cupiditate dolores, ipsa, maiores corrupti pariatur, sapiente aspernatur ullam dignissimos sequi sint? Architecto provident asperiores et, alias ea adipisci amet ipsam autem repudiandae vitae quam velit sint optio quidem eius! Distinctio voluptate magnam praesentium fugit laudantium sed officia ipsam voluptatem omnis, repellat voluptatibus maxime reprehenderit minus ad eligendi, nobis dolorum itaque nulla nostrum quam aliquam consequatur exercitationem ipsum consequuntur. Pariatur mollitia blanditiis minus rerum quasi aut illo eius? Quia voluptatum blanditiis vitae, aut quo quisquam nam quibusdam illo nihil qui officia cumque ratione modi eum nisi doloremque veritatis sapiente impedit dolores excepturi ad. Non, a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus dignissimos vero, in magni
+            blanditiis obcaecati tempora iste officia explicabo aperiam neque eos accusantium ex voluptate dolorem.
+            Quis, ducimus! Accusamus saepe delectus porro corrupti architecto eum quam sint perferendis veniam velit est
+            tempora sequi ea nihil voluptas error tempore harum laborum, natus explicabo alias beatae minus rem.
+            Assumenda quaerat nobis error excepturi molestias et rerum minima doloribus sint, eum aliquam ut omnis
+            asperiores iste non. Tempora commodi quia doloribus repudiandae placeat esse suscipit ipsa sunt nisi, aut
+            perferendis odit unde tempore, ducimus iste atque a et voluptate nulla hic eum alias. Reiciendis doloribus
+            numquam illum cupiditate dolores, ipsa, maiores corrupti pariatur, sapiente aspernatur ullam dignissimos
+            sequi sint? Architecto provident asperiores et, alias ea adipisci amet ipsam autem repudiandae vitae quam
+            velit sint optio quidem eius! Distinctio voluptate magnam praesentium fugit laudantium sed officia ipsam
+            voluptatem omnis, repellat voluptatibus maxime reprehenderit minus ad eligendi, nobis dolorum itaque nulla
+            nostrum quam aliquam consequatur exercitationem ipsum consequuntur. Pariatur mollitia blanditiis minus rerum
+            quasi aut illo eius? Quia voluptatum blanditiis vitae, aut quo quisquam nam quibusdam illo nihil qui officia
+            cumque ratione modi eum nisi doloremque veritatis sapiente impedit dolores excepturi ad. Non, a.</p>
     </main>
 
-    <footer class: piePagina>
-        <h3> Todos los derechos reservados</h3>
-        <ul>
-            <li> <a target="_blank" href="https://es-la.facebook.com/">Facebook</a></li>
-            <li> <a target="_blank"  href="https://www.youtube.com/">Youtube</a></li>
-            <li> <a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+    <!-- FOOTER -->
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li><a target="_blank" href="https://es-la.facebook.com/" class="nav-link px-2 textoFooter">Facebook</a>
+            </li>
+            <li><a target="_blank" href="https://www.youtube.com/" class="nav-link px-2 textoFooter">Youtube</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/" class="nav-link px-2 textoFooter">Instagram</a>
+            </li>
         </ul>
-    
+        <p class="text-center text-muted">&copy; Todos los derechos reservados</p>
+    </footer>
+
+
+    <!-- BOOTSRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

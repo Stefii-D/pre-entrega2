@@ -1,51 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anticoncepción Femenina No Hormonal</title>
+    <!-- CSS BOOTSRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
         <h1> Anticoncepción Femenina Hormonal</h1>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="masculinas.html">Masculinas</a></li>
-                <li><a href="femeninas.html">Femeninas</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid">
+                <img src="../img/logo.png" alt="Logo" width="60px">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="masculinas.html">Masculinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="femeninas.html">Femeninas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn botonBusqueda" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
+
+
         <h2> ¿Tiene los mismos efectos adversos que los hormonales? </h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at, explicabo molestias soluta voluptates voluptatum error sapiente laborum suscipit, et dignissimos quos quibusdam cupiditate minima corrupti doloribus totam earum laboriosam.</p>
-        
-        <h2> Método 1</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequuntur at sit vitae repellat exercitationem excepturi maiores magni. Nihil ea esse ab corrupti eum sint beatae animi amet dolor, consequatur nemo blanditiis quasi adipisci saepe iure voluptas. Odio hic, cumque earum fuga, amet adipisci quos officiis totam minima veniam dolor culpa sequi autem repellat cupiditate perspiciatis doloribus accusantium et quia. Dicta voluptates voluptate perferendis illo fuga sequi fugit, ex sed reiciendis, commodi iste, odio libero est facilis officiis. Amet totam doloribus est vitae adipisci explicabo at iste odio? Minus adipisci qui aut maiores fugiat non officiis laudantium delectus odit sed?</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at, explicabo molestias soluta voluptates
+            voluptatum error sapiente laborum suscipit, et dignissimos quos quibusdam cupiditate minima corrupti
+            doloribus totam earum laboriosam.</p>
 
-        <img  class="imagen" src="../img/anticonfem.jpg" alt="Anticoncepción Femenina No Hormonal" width="400">
 
-        <h2> Método 2</h2>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, fuga veniam fugiat atque alias eius facilis nulla officia et non ullam cupiditate blanditiis! Deleniti odio, inventore, molestiae accusantium nostrum exercitationem dignissimos nemo mollitia commodi quasi aperiam quae ut reprehenderit facilis et, expedita hic voluptatem architecto obcaecati voluptates culpa. Aperiam cum ad odit maiores voluptate optio repellendus dolorem illum deserunt harum provident, repellat molestiae dolor odio iste ex aliquam eligendi recusandae? Totam distinctio necessitatibus culpa ipsum laudantium cum eius quisquam deleniti ab repellendus debitis enim ut non beatae reiciendis inventore expedita assumenda soluta voluptas ex rem provident, nihil voluptates! Id, dolore.
-        </p>
-        <img  class="imagen" src="../img/anticonfem.jpg" alt="Anticoncepción Femenina No Hormonal 2" width="400">
-
-        <h2> Método 3</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga dolor odit maiores, enim soluta incidunt adipisci dicta pariatur explicabo alias saepe ratione in placeat, tempore laudantium voluptates tenetur odio a, cum rem eaque! Atque porro, laboriosam, nisi, fugiat odit laudantium eius quis ipsa dolores nemo ducimus architecto praesentium impedit nesciunt quo repellendus sint aut quia doloremque delectus quaerat. Maiores, ullam quisquam? Consectetur neque natus voluptate quis, modi blanditiis numquam optio ipsum! Id, illo voluptas ut eius alias amet, modi possimus quos ea aspernatur pariatur animi doloremque dolor exercitationem assumenda, voluptatem numquam deserunt nobis ullam laboriosam saepe nulla maiores ab!</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/anticonfem.jpg" class="card-img-top" alt="Método 1">
+                    <div class="card-body">
+                        <h2 class="card-title">Método 1</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam
+                            vel distinctio fuga ratione ipsam labore, esse et necessitatibus commodi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/anticonfem.jpg" class="card-img-top" alt="Método 2">
+                    <div class="card-body">
+                        <h2 class="card-title">Método 2</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, est?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/anticonfem.jpg" class="card-img-top" alt="Método 3">
+                    <div class="card-body">
+                        <h2 class="card-title">Método 3</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                            assumenda! Velit nemo magni asperiores inventore!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../img/anticonfem.jpg" class="card-img-top" alt="Método 4">
+                    <div class="card-body">
+                        <h2 class="card-title">Método 4</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae provident
+                            autem id ducimus tenetur repellat!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer class: piePagina>
-        <h3> Todos los derechos reservados</h3>
-        <ul>
-            <li> <a target="_blank" href="https://es-la.facebook.com/">Facebook</a></li>
-            <li> <a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
-            <li> <a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+    <!-- FOOTER -->
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li><a target="_blank" href="https://es-la.facebook.com/" class="nav-link px-2 textoFooter">Facebook</a>
+            </li>
+            <li><a target="_blank" href="https://www.youtube.com/" class="nav-link px-2 textoFooter">Youtube</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/" class="nav-link px-2 textoFooter">Instagram</a>
+            </li>
         </ul>
+        <p class="text-center text-muted">&copy; Todos los derechos reservados</p>
+    </footer>
+
+    <!-- BOOTSRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
