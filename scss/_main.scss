@@ -1,0 +1,29 @@
+/* MAIN */
+
+.imagen {
+	display: block;
+	margin: auto;
+}
+
+/* CAROUSEL */
+.textoCarousel {
+	color: $color_5;
+	font-weight: bold;
+	font-style: oblique;
+}
+h2 {
+	font-family: $font-family_2;
+	color: $color_6;
+	margin-left: 10px;
+}
+p {
+	margin-left: 10px;
+}
+.sobreNosotros {
+	border: #d72483;
+	background-color: $background-color_3;
+	color: $color_7;
+	padding: 1rem;
+	margin-bottom: 10px;
+}
+

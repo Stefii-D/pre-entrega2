@@ -1,0 +1,82 @@
+/* MIXIN */
+@mixin ancla {
+    text-decoration: none;
+    color: $color_4;
+    font-weight: bold;
+    margin: 0px 30px;
+    transition: all, 0.5s;
+}
+
+/* BODY */
+body {
+    font-family: $font-family_1;
+}
+
+/* HEADER */
+
+header {
+    background-color: $background-color_1;
+
+    nav {
+        background-color: $background-color_2;
+        padding: 1rem;
+    }
+}
+
+.botonBusqueda {
+    background: linear-gradient(to bottom right, $background-color_6, $background-color_3);
+    color: $color_1;
+    border: aliceblue;
+
+    &:hover {
+        background: none;
+        background-color: $background-color_4;
+        color: $color_2;
+
+    }
+}
+
+a {
+    text-decoration: none;
+
+    h1 {
+        font-family: $font-family_2;
+        color: $color_3;
+        text-align: center;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        font-size: 26px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+
+
+        a {
+            @include ancla;
+
+
+            &:hover {
+                text-decoration: underline;
+                color: $color_3;
+            }
+
+        }
+
+    }
+}

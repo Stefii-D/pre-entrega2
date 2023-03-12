@@ -1,0 +1,17 @@
+/* FOOTER*/
+
+.textoFooter {
+	color: $color_4;
+	font-weight: bold;
+	transition: all, 0.5s;
+	&:hover {
+		color: $color_6;
+	}
+}
+footer {
+	background-color: $background-color_2;
+}
+.contenedorImagen {
+	display: flex;
+	align-items: center;
+}

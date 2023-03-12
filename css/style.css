@@ -1,206 +1,249 @@
+@charset "UTF-8";
 /* GOOGLE FONTS */
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
-
-
-
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap";
+/* MIXIN */
+/* BODY */
 body {
-    font-family: 'Open Sans', sans-serif;
-   
+  font-family: "Open Sans", sans-serif;
 }
 
 /* HEADER */
 header {
-    background-color: #333;
+  background-color: #333;
 }
 header nav {
-    background-color:#792359;
-    padding: 1rem;
+  background-color: #792359;
+  padding: 1rem;
 }
 
 .botonBusqueda {
-    background-color: #d72483;
-    color:aliceblue;
-    border: aliceblue;
+  background: linear-gradient(to bottom right, rgb(224, 151, 175), #d72483);
+  color: aliceblue;
+  border: aliceblue;
 }
-
 .botonBusqueda:hover {
-    background-color: aliceblue;
-    color: #d72483;
-    border: #d72483;
+  background: none;
+  background-color: aliceblue;
+  color: #d72483;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    color: #c267a1;
-    text-align: center;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    font-size:26px;  
+a {
+  text-decoration: none;
 }
-
-h1:hover {
-    text-decoration: underline;
+a h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #c267a1;
+  text-align: center;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-size: 26px;
+}
+a h1:hover {
+  text-decoration: underline;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 ul li {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
-
-ul li a{
-    text-decoration: none;
-    color:#FD3E81;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0px 30px ;
+ul li a {
+  text-decoration: none;
+  color: #FD3E81;
+  font-weight: bold;
+  margin: 0px 30px;
+  transition: all, 0.5s;
 }
-
 ul li a:hover {
-    text-decoration: underline;
-    color: #c267a1;
+  text-decoration: underline;
+  color: #c267a1;
 }
 
- /*MAIN  */
-
+/* MAIN */
 .imagen {
-    display:block;
-    margin:auto;
-    
+  display: block;
+  margin: auto;
 }
 
 /* CAROUSEL */
-
 .textoCarousel {
-    color: rgb(89, 21, 110);
-    font-weight: bold;
-    font-style:oblique ;
+  color: rgb(89, 21, 110);
+  font-weight: bold;
+  font-style: oblique;
 }
 
 h2 {
-    font-family: 'Bebas Neue', cursive;
-    color: #dda3c2;
-    margin-left: 10px;
+  font-family: "Bebas Neue", cursive;
+  color: #dda3c2;
+  margin-left: 10px;
 }
 
 p {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .sobreNosotros {
-    border: #d72483;
-    background-color: #d72483;
-    color: beige;
-    padding: 1rem;
-    margin-bottom: 10px;
+  border: #d72483;
+  background-color: #d72483;
+  color: beige;
+  padding: 1rem;
+  margin-bottom: 10px;
 }
 
-
-/* FOOTER */
-
+/* FOOTER*/
 .textoFooter {
-    color: #FD3E81;
-    font-weight: bold;
+  color: #FD3E81;
+  font-weight: bold;
+  transition: all, 0.5s;
 }
-
 .textoFooter:hover {
-    color:#dda3c2;
+  color: #dda3c2;
 }
 
 footer {
-    background-color: #792359;
+  background-color: #792359;
 }
-
 
 .contenedorImagen {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+/* MITOS E HISTORIAS */
 /* VIDEO MITOS */
+.contenedorPadre {
+  background-color: #d72483;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
 
 #mitos {
-    text-align: center;
-    border: 1px solid #d72483;
-    background-color:#d72483;
-    margin-top: 10px;
-    padding-top: 10px;
-   
+  text-align: center;
+  border: 1px solid #d72483;
+  background-color: #d72483;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  justify-content: space-around;
+  width: 70%;
+  height: 60%;
+}
+#mitos .contenedorVideo {
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+}
+#mitos .contenedorVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* DIV CARDS HISTORIA Y MITOS */
-
-
-
- .historiaCards:hover {
-    background-color: #333;
-    color: beige;
-} 
-
-.mitoCards:hover {
-    background-color: #333;
-    color: beige;
+.historiaCards {
+  background-color: #792359;
+  color: pink;
+  transition: all, 0.2s;
+}
+.historiaCards:hover {
+  background-color: #d72483;
+  color: beige;
 }
 
+.mitoCards {
+  background-color: #792359;
+  color: pink;
+  transition: all, 0.2s;
+}
+.mitoCards:hover {
+  background-color: #d72483;
+  color: beige;
+}
 
 /* CONTENEDOR ANTICONCEPCIÓN HORMONAL/NO HORMONAL */
-
-.rowFem{
-    color: #FD3E81;
-    font-weight: bolder;
-    margin: 1rem;   
+.rowFem {
+  color: white;
+  font-weight: bolder;
+  margin: 1rem;
+}
+.rowFem .cardFem {
+  border-color: #c267a1;
+  background-color: #c267a1;
 }
 
-/* ANTICONCEPCIÓN FEMENINA */
-
-
+.cardHormonal {
+  margin: 2rem;
+}
 
 /* ANTICONCEPCIÓN MASCULINA */
-
 .generalidadesMasc {
-    background-color: rgb(9, 20, 70);
-    color: white;
-    margin: 15px 1px;
-    padding: 20px;
+  background-color: rgb(9, 20, 70);
+  color: white;
+  margin: 15px 1px;
+  padding: 20px;
+}
+.generalidadesMasc h2 {
+  color: rgb(75, 151, 223);
 }
 
-.generalidadesMasc h2 {
-    color:rgb(75, 151, 223) ;
+.masculina {
+  transition: all, 0.2s;
 }
 .masculina:hover {
-    background-color: #333;
-    color:rgb(75, 151, 223) ;
+  background-color: #333;
+  color: rgb(75, 151, 223);
 }
 
+.masculinaDos {
+  transition: all, 0.2s;
+}
 .masculinaDos:hover {
-    background-color: #333;
-    color: #c267a1;
+  background-color: #333;
+  color: #c267a1;
 }
 
+.masculinaTres {
+  transition: all, 0.2s;
+}
 .masculinaTres:hover {
-    background-color: #333;
-    color:#dda3c2;
+  background-color: #333;
+  color: #dda3c2;
 }
 
 /* FORMULARIO CONTACTO */
 .contenedorContacto {
-    text-align: center;
-    background-color: rgb(224, 151, 175);
-    border: 3px solid rgb(224, 151, 175);
-    margin: 10px 250px;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid white;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
-
 .contenedorContacto h2 {
-    color: #792359;
-    margin-top: 20px;
+  color: #792359;
+  margin-top: 20px;
+  text-align: center;
 }
-
 .contenedorContacto input:hover {
-    background-color: #dda3c2;
+  background-color: #dda3c2;
 }
 
+.formulario {
+  border: 2px, solid, pink;
+  background-color: pink;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
