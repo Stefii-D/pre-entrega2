@@ -5,6 +5,7 @@
 /* BODY */
 body {
   font-family: "Open Sans", sans-serif;
+  cursor: url(../img/cursor_jeringa.jpg), auto;
 }
 
 /* HEADER */
@@ -57,6 +58,7 @@ ul li a {
   font-weight: bold;
   margin: 0px 30px;
   transition: all, 0.5s;
+  cursor: url(../img/cursor_pusheen.jpg), auto;
 }
 ul li a:hover {
   text-decoration: underline;

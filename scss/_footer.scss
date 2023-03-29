@@ -9,7 +9,12 @@
 	}
 }
 footer {
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	background-color: $background-color_2;
+
 }
 .contenedorImagen {
 	display: flex;
